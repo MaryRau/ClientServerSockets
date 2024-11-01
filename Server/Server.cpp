@@ -103,7 +103,7 @@ int main(void)
 
         float x = 0;
         if (a != 0)
-            x = (c - b) / a;
+            x = round((c - b)/a);
         else
         {
             cout << "Can't divide by 0." << endl;

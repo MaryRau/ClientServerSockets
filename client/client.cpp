@@ -79,7 +79,7 @@ int main(void)
             return 1;
         }
         else
-            cout << "Send coefficients: " << servBuff.data() << endl;
+            cout << "Send x: " << servBuff.data() << endl;
     }
     closesocket(ClientSock);
     WSACleanup();
